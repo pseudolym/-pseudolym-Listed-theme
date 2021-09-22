@@ -3,4 +3,4 @@ Custom Listed theme, as used on https://listed.to/@pseudolym. Colouring of `mono
 
 CSS broken? Have accessibility concerns? Feel free to contact me through Github, the blog, or any other personal avenue.
 
-Thank you https://listed.to for providing a terrific platform.
+Thank you [Listed](https://listed.to) for providing a terrific platform.
