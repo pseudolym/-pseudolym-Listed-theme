@@ -1,0 +1,185 @@
+--- metatype: css --- @import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://db.onlinewebfonts.com/c/405f05e6bf58471a25729ed060cda2d8?family=Glacial+Indifference');
+@import url('http://db.onlinewebfonts.com/t/405f05e6bf58471a25729ed060cda2d8.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* :root section adapted from Listed documentation: https://standardnotes.com/help/66/how-do-i-change-the-colors-fonts-and-general-layout-of-my-listed-blog */
+:root {
+  --border: 1px solid hsla(0, 0%, 100%, 42%);
+  --color-default: #232323;
+  --color-primary: #98cfff;
+  --color-primary-opacity-8: rgba(147, 192, 255, 0.08);
+  --color-neutral: #232323;
+  --color-neutral-darker: #151515;
+  --color-contrast: #fff;
+  --color-contrast-opacity-8: hsla(0, 0%, 100%, 0.08);
+  --color-contrast-opacity-16: hsla(0, 0%, 100%, 0.16);
+  --color-contrast-opacity-36: hsla(0, 0%, 100%, 0.36);
+  --color-contrast-opacity-86: hsla(0, 0%, 100%, 0.86);
+  --background-color: var(--color-default);
+  --dimmed-text-color: var(--color-contrast-opacity-16);
+  --dimmed-border-color: var(--color-default);
+  --body-text-color: var(--color-contrast);
+  --post-title-color: var(--body-text-color);
+  --post-date-color: var(--body-text-color);
+  --post-text-color: var(--body-text-color);
+  --page-menu-link-color: var(--link-color);
+  --header-author-name: var(--color-primary);
+  --header-listed-name: var(--color-primary);
+  --more-from-border-color: var(--dimmed-border-color);
+  --bio-color: var(--body-text-color);
+  --wordcount-color: var(--color-primary);
+  --website-color: var(--link-color);
+  --twitter-color: var(--link-color);
+  --link-color: var(--color-primary);
+  --header-border-color: var(--color-primary);
+  --post-code-background-color: #20202a;
+  --post-code-border-color: #20202a;
+  --card-post-background-color: var(--color-neutral);
+  --card-post-border: var(--border);
+  --post-background-color: var(--color-neutral);
+  --author-posts-background-color: var(--color-neutral);
+  --more-posts-background-color: var(--color-default);
+  --more-posts-post-background-color: var(--color-neutral);
+  --footer-background-color: var(--background-color);
+  --footer-border-top-color: var(--color-contrast-opacity-16);
+  --callout-background-color: var(--color-neutral);
+  --callout-success-border-color: #1aa772;
+  --callout-warning-border-color: #f28b52;
+  --callout-info-border-color: #1aa772;
+  --scroll-to-top-background-color: var(--color-default);
+  --scroll-to-top-border: var(--border);
+  --scroll-to-top-border-color-hover: var(--color-contrast);
+  --author-footer-background-color: var(--color-neutral);
+  --scroll-to-top-icon-color: var(--color-contrast);
+  --blockquote-border-left-color: var(--color-contrast-opacity-36);
+  --guestbook-border-left-color: hsl(0deg 0% 98% / 33%);
+  --author-header-info-links-separator-color: var(--color-contrast-opacity-16);
+}
+
+/* Above section adapted from Listed documentation: https://standardnotes.com/help/66/how-do-i-change-the-colors-fonts-and-general-layout-of-my-listed-blog */
+body {
+  font-family: Glacial Indifference, Cabin, sans-serif;
+}
+
+.post-content .post-date {
+  font-family: Cabin, sans-serif;
+  font-size: 0.9em;
+}
+
+.p3 {
+  font-family: Glacial Indifference, Cabin, sans-serif;
+  font-size: 0.9em;
+}
+
+.p3.word-count {
+  font-family: Cabin, sans-serif;
+  font-size: 0.9em;
+}
+
+.post-date.p3 {
+  font-size: 0.8em;
+}
+
+.h1 {
+  font-family: Merriweather Sans, Merriweather, sans-serif;
+  font-size: 1.9em;
+}
+
+.h5.post-title {
+  font-family: Merriweather Sans, Merriweather, sans-serif;
+  font-size: 1em;
+}
+
+#author-posts .post-title {
+  font-family: Merriweather Sans, Merriweather, sans-serif;
+  font-size: 1.05em;
+  font-weight: 100;
+  line-height: 36px;
+}
+
+.header-author-info {
+  padding: 35px 11vw 0;
+}
+
+.header-author-info__items {
+  margin-bottom: 0px;
+}
+
+.h3,
+.h5,
+.more-from {
+  font-family: Merriweather Sans, Merriweather, sans-serif;
+}
+
+#subscribe-page .h1 {
+  font-family: Merriweather Sans, Merriweather, sans-serif;
+}
+
+.button.button.word-count__button {
+  padding: 15px 22vw;
+}
+
+.post-body {
+  font-family: Cormorant, Garamond, EB Garamond, Cambria, Times New Roman, serif;
+  font-size: 1.3em;
+}
+
+.post-preview-body {
+  font-size: 0.8em;
+}
+
+.h4 {
+  font-family: Playfair Display, Merriweather, serif;
+}
+
+label {
+  font-family: Merriweather Sans, Merriweather, sans-serif !important;
+}
+
+.pages-menu.author-pages-menu--desktop.pages-menu--desktop {
+  font-family: Cabin, Merriweather Sans, sans-serif;
+  letter-spacing: 1px;
+}
+
+.author-name__container:before {
+  opacity: 0.3;
+}
+
+.page-header__container .header-image-container {
+  background-image: url(https://i.postimg.cc/T1VnxVhG/bg.jpg);
+  background-position: 0px 20em;
+}
+
+.bio.p1 {
+  font-family: Cormorant, Garamond, serif;
+}
+
+.header-author-capital {
+  font-family: Playfair Display, Merriweather, serif;
+  align-self: flex-start;
+  opacity: 0.8;
+}
+
+.text-field {
+  caret-color: #c7c7c7 !important;
+  font-family: 'Montserrat', Glacial Indifference, sans-serif;
+  letter-spacing: 90%;
+}
+
+.colour {
+  font-family: Glacial Indifference, Cabin, sans-serif;
+  color: #33a0ff;
+  font-size: 95%;
+}
+
+a:hover {
+  color: #2384d9;
+}
+
+/* This is temporary. Monospace colouring still a W.I.P. */
+.highlight .ow, .highlight .k, .highlight .kv, .highlight .kn {
+  color: red;
+}
