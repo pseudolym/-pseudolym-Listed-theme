@@ -1,4 +1,7 @@
---- metatype: css --- @import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Cabin&display=swap');
+---
+metatype: css
+---
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Cabin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 @import url('https://db.onlinewebfonts.com/c/405f05e6bf58471a25729ed060cda2d8?family=Glacial+Indifference');
 @import url('http://db.onlinewebfonts.com/t/405f05e6bf58471a25729ed060cda2d8.ttf');
@@ -58,10 +61,15 @@
   --guestbook-border-left-color: hsl(0deg 0% 98% / 33%);
   --author-header-info-links-separator-color: var(--color-contrast-opacity-16);
 }
-
 /* Above section adapted from Listed documentation: https://standardnotes.com/help/66/how-do-i-change-the-colors-fonts-and-general-layout-of-my-listed-blog */
+
 body {
   font-family: Glacial Indifference, Cabin, sans-serif;
+}
+
+/* Maybe not the most efficient way to add first-line indents, as I have to add <p> tags, with inline CSS negating this, to the main doc whenever I don't want them/publish poetry.  */
+div.post-body.p1 p {
+	text-indent: 50px;
 }
 
 .post-content .post-date {
